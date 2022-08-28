@@ -18,14 +18,14 @@ jobs:
           echo "registry=https://repo1.uhc.com/artifactory/api/npm/npm-virtual" > .npmrc
           echo "//repo1.uhc.com/artifactory/api/npm/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" >> .npmrc
           cat .npmrc
-          npm whoami
+      #     npm whoami
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-
+      # - name: Cache dependencies
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ~/.npm
+      #     key: npm-${{ hashFiles('package-lock.json') }}
+      #     restore-keys: npm-
 
       - name: Install dependencies
         run: npm install
