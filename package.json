@@ -1,0 +1,6 @@
+{
+  "name": "npm-workflow-example",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
