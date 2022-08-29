@@ -8,4 +8,4 @@ on:
 
 jobs:
   volcan:
-    uses: volcan-pipelines/my-namespace/.github/workflows/test.yml
+    uses: volcan-pipelines/my-namespace/.github/workflows/test.yml@main
