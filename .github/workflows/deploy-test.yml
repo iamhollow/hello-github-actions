@@ -8,4 +8,4 @@ on:
 
 jobs:
   volcan:
-    uses: volcan-pipelines/my-namespace/test@main
+    uses: iamhollow/workflowz/.github/workflows/test@main
