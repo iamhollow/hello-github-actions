@@ -1,4 +1,4 @@
-name: Test Workflow 1
+name: Deploy
 
 on:
   workflow_dispatch:
@@ -7,5 +7,6 @@ on:
       - main
 
 jobs:
-  test-job:
+  volcan:
+    environment: test
     uses: iamhollow/workflowz/.github/workflows/test.yml@main
