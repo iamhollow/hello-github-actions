@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy Test
 
 on:
   workflow_dispatch:
@@ -8,4 +8,4 @@ on:
 
 jobs:
   volcan:
-    uses: iamhollow/workflowz/.github/workflows/test.yml@main
+    uses: volcan-pipelines/my-namespace/test@main
