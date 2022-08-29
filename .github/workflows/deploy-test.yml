@@ -8,4 +8,4 @@ on:
 
 jobs:
   volcan:
-    uses: iamhollow/workflowz/.github/workflows/test@main
+    uses: iamhollow/workflowz/.github/workflows/test.yml@main
